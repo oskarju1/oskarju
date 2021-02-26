@@ -14,5 +14,12 @@ public class Main {
 	    iPhone.producer = "Apple";
 	    iPhone.model = "6S";
 	    iPhone.operationSystem = "iOS";
+
+	    Human me = new Human();
+	    me.firstName = "Oskar";
+	    me.lastName = "Jurgielaniec";
+	    me.pet = dog;
+
+	    System.out.println("Zwierzak nazywa się: " + me.pet.name);
     }
 }
