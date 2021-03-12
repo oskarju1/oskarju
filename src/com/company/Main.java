@@ -18,6 +18,8 @@ public class Main {
 	    me.firstName = "Oskar";
 	    me.lastName = "Jurgielaniec";
 	    me.pet = dog;
+	    me.auto = new Car("VW", "Golf");
+
 
     }
 }
