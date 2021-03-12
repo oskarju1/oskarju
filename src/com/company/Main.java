@@ -3,13 +3,15 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	    Animal dog = new Animal("dog", 20.0, "Szarik");
 
 
+	    Animal dog = new Animal("dog");
 	    dog.feed();
-		dog.feed();
-		dog.feed();
-		dog.feed();
+	    dog.walk();
+		dog.walk();
+		dog.walk();
+		dog.walk();
+		dog.walk();
 
 
 	    Human me = new Human();
@@ -17,6 +19,5 @@ public class Main {
 	    me.lastName = "Jurgielaniec";
 	    me.pet = dog;
 
-	    System.out.println("Zwierzak nazywa się: " + me.pet.name);
     }
 }
